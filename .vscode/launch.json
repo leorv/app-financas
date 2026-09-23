@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Angular: Chrome",
+      "type": "pwa-chrome",
+      "request": "launch",
+      "url": "http://127.0.0.1:4200",
+      "webRoot": "${workspaceFolder}",
+      "preLaunchTask": "Angular: serve",
+      "sourceMaps": true,
+      "smartStep": true,
+      "skipFiles": [
+        "<node_internals>/**"
+      ]
+    }
+  ]
+}
